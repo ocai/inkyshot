@@ -249,6 +249,11 @@ FONT_SIZE = 24
 if "FONT_SIZE" in os.environ:
     FONT_SIZE = int(os.environ["FONT_SIZE"])
 
+# Check for a quote of the day API key, otherwise use default
+APIKEY = "insertkeyhere"
+if "QOD_API_KEY" in os.environ:
+    APIKEY = os.environ['QOD_API_KEY']
+
 # Check for a quote of the day category, otherwise use inspire
 CATEGORY = "inspire"
 if "QOD_CATEGORY" in os.environ:
