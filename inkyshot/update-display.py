@@ -361,7 +361,7 @@ elif target_display == 'quote':
     elif message is None:
         try:
             response = requests.get(
-                f"https://quotes.rest/qod?category={CATEGORY}&language={LANGUAGE}",
+                f"https://quotes.rest/qod?category={CATEGORY}&language={LANGUAGE}&api_key={APIKEY}",
                 headers={"Accept" : "application/json"}
             )
             data = response.json()
