@@ -13,15 +13,16 @@ assets:
   repository:
     type: blob.asset
     data:
-      url: 'https://github.com/balena-labs-projects/inkyshot'
+      url: 'https://github.com/ocai/inkyshot'
   logo:
     type: blob.asset
     data:
-      url: 'https://raw.githubusercontent.com/balena-labs-projects/inkyshot/master/logo.png'
+      url: 'https://raw.githubusercontent.com/ocai/inkyshot/master/logo.png'
 data:
   applicationEnvironmentVariables:
     - UPDATE_HOUR: 9
-    - TZ: Europe/London
+    - TZ: Asia/Singapore
+    - QOD_API_KEY: rMjlQIPDROxAui5EIF5iNIAWrBPlpTYt8QMiNwWZ
     - QOD_CATEGORY: inspire
     - FONT: AmaticSC
     - TEST_CHARACTER: a
